@@ -1,0 +1,25 @@
+{
+  "name": "devops-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --recursive --reporter spec --colors --exit",
+    "coverage": "nyc --reporter=lcov --reporter=text npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "nyc": "^17.1.0",
+    "supertest": "^7.1.3"
+  }
+}
