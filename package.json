@@ -17,7 +17,7 @@
     "pg": "^8.16.3"
   },
   "devDependencies": {
-    "chai": "^5.3.3",
+    "chai": "^4.5.0",
     "mocha": "^11.7.4",
     "nyc": "^17.1.0",
     "supertest": "^7.1.4"
